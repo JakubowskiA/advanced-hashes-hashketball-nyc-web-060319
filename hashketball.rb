@@ -124,7 +124,7 @@ def num_points_scored(player)
 
   info[:players].each do |person, player_info|
     binding.pry
-      if player_info[:name] == player
+      if person == player
 
         num = player_info[:points]
       end
