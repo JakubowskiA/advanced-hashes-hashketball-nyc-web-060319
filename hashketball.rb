@@ -128,7 +128,7 @@ def num_points_scored(player)
       end
     end
   end
-  num
+  num.to_i
 end
 
 def shoe_size(player)
