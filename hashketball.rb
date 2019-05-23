@@ -180,7 +180,7 @@ def player_stats(player)
 player_stats = {}
   game_hash.each do |team, info|
     info[:players].each do |person, stats|
-        binding.pry
+      #  binding.pry
       if person == player
         player_stats = stats
         #return stats
