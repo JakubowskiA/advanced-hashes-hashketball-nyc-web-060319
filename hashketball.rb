@@ -121,7 +121,6 @@ end
 def num_points_scored(player)
   num = nil
   game_hash.each do |team, info|
-
   info[:players].each do |person, player_info|
 
       if person == player
@@ -136,8 +135,7 @@ end
 def shoe_size(player)
  size = nil
  game_hash.each do |team, info|
-   peeps = info[:players]
-   peeps.each do |player_info|
+     info[:players].each do |person, player_info|
      if player_info[:name] == player
        size = player_info[:shoe]
      end
