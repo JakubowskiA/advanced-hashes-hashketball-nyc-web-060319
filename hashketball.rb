@@ -178,6 +178,7 @@ end
 def player_stats(player)
 player_stats = {}
   game_hash.each do |team, info|
+    binding.pry
     info[:players].each do |person, stats|
       if person == player
         player_stats = stats
