@@ -4,8 +4,8 @@ def game_hash
    {:home => {
       :team_name => "Brooklyn Nets",
       :colors => ["Black", "White"],
-      :players =>[
-      {:name => "Alan Anderson",
+      :players =>
+      {"Alan Anderson" => {
           :number => 0,
           :shoe => 16,
           :points => 22,
@@ -15,7 +15,7 @@ def game_hash
           :blocks => 1,
           :slam_dunks => 1
         },
-        {:name => "Reggie Evans",
+        "Reggie Evans" => {
           :number => 30,
           :shoe => 14,
           :points => 12,
@@ -25,7 +25,7 @@ def game_hash
           :blocks => 12,
           :slam_dunks => 7
         },
-        {:name => "Brook Lopez",
+        "Brook Lopez" => {
           :number => 11,
           :shoe => 17,
           :points => 17,
@@ -35,7 +35,7 @@ def game_hash
           :blocks => 1,
           :slam_dunks => 15
         },
-        {:name => "Mason Plumlee",
+        "Mason Plumlee" => {
           :number => 1,
           :shoe => 19,
           :points => 26,
@@ -45,7 +45,7 @@ def game_hash
           :blocks => 8,
           :slam_dunks => 5
         },
-        {:name => "Jason Terry",
+      "Jason Terry" => {
           :number => 31,
           :shoe => 15,
           :points => 19,
